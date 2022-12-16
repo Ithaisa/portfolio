@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & display=swap');
+
+*{
+  /*margin: 0;
+  padding: 0;*/
+  box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+}
+
+/*Cabecera*/
+header{
+  display: flex;
+  justify-content: center;
+  font-size: 400;
+}
+
+h1{
+  padding: 2rem;
+  font-size: 400;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.contenido{
+  font-weight: 700;
+  color: white;
+}
+
+
+body{
+ background-image: url(/img/hjk2.jpg);
+}
+
+#bienvenidos{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 6rem;
+    font-weight: large;
+}
+
+
+/*Navegacion*/
+.nav{
+  max-width: 900px;
+  margin: auto;
+  background-color: #333;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.menu-horizontal{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.menu-horizontal li a{
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-horizontal li:hover{
+  background-color: red;
+
+}
+
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  text-decoration: none;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-vertical li:hover{
+  background-color: rgba(245, 237, 237, 0.651);
+}
+
+.menu-vertical li a{
+  display: block;
+  color: white;
+  padding: 15px 15px 15px 20px;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+  display: block;
+}
+
+/*Skills*/
+h2{
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  padding: 3rem;
+  margin: 2rem;
+}
+
+h3{
+  font-size: 3rem;
+  color: white;
+  padding: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+img{
+  width: 50%;
+  height: 50%;
+  margin: 5rem;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 2rem;
+  background-color: darkgoldenrod;
+  border: 0.5rem;
+  object-fit: cover;
+  
+}
+
+.imagenes{
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+p{
+  color: white;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+/*Diseño*/
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+}
+
+/*Footer*/
+
+footer{
+    font-size:3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
